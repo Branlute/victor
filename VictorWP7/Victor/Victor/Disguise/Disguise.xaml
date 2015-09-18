@@ -1,0 +1,59 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="VictorNamespace.Disguise"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape" Orientation="Landscape"
+    mc:Ignorable="d" d:DesignHeight="480" d:DesignWidth="728"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot est la grille racine où tout le contenu de la page est placé-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contient le nom de l'application et le titre de la page-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="VICTOR" Style="{StaticResource PhoneTextNormalStyle}" Foreground="#FF0A7C37" />
+            <TextBlock x:Name="PageTitle" Text="The disguise mode" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Foreground="#FF0A7C37" />
+        </StackPanel>
+
+        <!--ContentPanel - placez tout contenu supplémentaire ici-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Image Height="319" HorizontalAlignment="Left" Name="imgVictor" Stretch="Fill" VerticalAlignment="Top" Width="399" Source="/Victor;component/Images/Accessoires/victor.png" />
+            <Image Height="48" HorizontalAlignment="Left" Margin="405,35,0,0" Name="imgPreviousHead" Stretch="Fill" VerticalAlignment="Top" Width="48" Source="/Victor;component/Images/Icons/previous.png" Tap="imgPreviousHead_Tap" />
+            <Image Height="48" HorizontalAlignment="Left" Margin="405,123,0,0" Name="imgPreviousShirt" Source="/Victor;component/Images/Icons/previous.png" Stretch="Fill" VerticalAlignment="Top" Width="48" Tap="imgPreviousShirt_Tap" />
+            <Image Height="48" HorizontalAlignment="Left" Margin="405,211,0,0" Name="imgPreviousPants" Source="/Victor;component/Images/Icons/previous.png" Stretch="Fill" VerticalAlignment="Top" Width="48" Tap="imgPreviousPants_Tap" />
+            <Image Height="48" HorizontalAlignment="Left" Margin="650,35,0,0" Name="imgNextHead" Source="/Victor;component/Images/Icons/next.png" Stretch="Fill" VerticalAlignment="Top" Width="48" Tap="imgNextHead_Tap" />
+            <Image Height="48" HorizontalAlignment="Left" Margin="650,123,0,0" Name="imgNextShirt" Source="/Victor;component/Images/Icons/next.png" Stretch="Fill" VerticalAlignment="Top" Width="48" Tap="imgNextShirt_Tap" />
+            <Image Height="48" HorizontalAlignment="Right" Margin="0,211,6,0" Name="imgNextPants" Source="/Victor;component/Images/Icons/next.png" Stretch="Fill" VerticalAlignment="Top" Width="48" Tap="imgNextPants_Tap" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="459,45,0,0" Name="textBlock1" Text="head" VerticalAlignment="Top" Width="185" Foreground="#FF0A7C37" TextAlignment="Center" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="459,219,0,0" Name="textBlock3" Text="pants" VerticalAlignment="Top" Width="185" Foreground="#FF0A7C37" TextAlignment="Center" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="459,133,0,0" Name="textBlock4" Text="shirt" VerticalAlignment="Top" Width="185" Foreground="#FF0A7C37" TextAlignment="Center" />
+            <Image Height="47" HorizontalAlignment="Left" Margin="72,-11,0,0" Name="imgHead" Stretch="Fill" VerticalAlignment="Top" Width="71" />
+            <Image Height="151" HorizontalAlignment="Left" Margin="115,146,0,0" Name="imgShirt" Stretch="Fill" VerticalAlignment="Top" Width="130" />
+            <Image Height="151" HorizontalAlignment="Left" Margin="248,146,0,0" Name="imgPants" Stretch="Fill" VerticalAlignment="Top" Width="95" />
+        </Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Victor;component/Images/Menu/background.png" />
+        </Grid.Background>
+    </Grid>
+ 
+    <!--Exemple de code illustrant l'utilisation de l'ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/AppBar/save.png" Text="save" x:Name="appBarSav" Click="appBarSav_Click" />
+            <shell:ApplicationBarIconButton IconUri="/Images/AppBar/submit.png" Text="submit" x:Name="appBarShare" Click="appBarShare_Click" />
+            <shell:ApplicationBarIconButton IconUri="/Images/AppBar/download.png" Text="download" x:Name="appBarDownload" Click="appBarDownload_Click" />
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

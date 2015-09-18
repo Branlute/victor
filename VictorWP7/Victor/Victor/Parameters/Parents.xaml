@@ -1,0 +1,58 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="VictorNamespace.Parents"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="728" d:DesignHeight="480"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}" SupportedOrientations="Landscape"  Orientation="Landscape"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot est la grille racine où tout le contenu de la page est placé-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Contrôle Pivot-->
+        <controls:Pivot Title="Parents' corner" Background="#FFFF9A00" Foreground="#FF0A7C37">
+            <!--Élément un de tableau croisé dynamique-->
+            <controls:PivotItem Header="...at home">
+                <Grid>
+                    <ListBox Margin="0,0,0,0" Name="lstParentsHome" VerticalAlignment="Top" Width="Auto">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <TextBlock Width="Auto" TextWrapping="Wrap" Text="{Binding Date}" Foreground="{Binding Couleur}" />
+                                    <TextBlock Width="Auto" TextWrapping="Wrap" Text="{Binding Question}" Foreground="{Binding Couleur}" />
+                                    <TextBlock Width="Auto" TextWrapping="Wrap" Text="{Binding Reponse}" Foreground="{Binding Couleur}" />
+                                    <Rectangle Width="Auto" Margin="0,6" Height="1" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Fill="#FF0A7C37" />
+                                </StackPanel>
+                            </DataTemplate>                       
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Élément deux de tableau croisé dynamique-->
+            <controls:PivotItem Header="...on holidays">
+                <Grid>
+                    <ListBox Height="593" HorizontalAlignment="Left" Margin="5,6,0,0" Name="lstParentsHoliday" VerticalAlignment="Top" Width="446" />
+                </Grid>
+            </controls:PivotItem>
+        </controls:Pivot>
+    </Grid>
+
+    <!--Exemple de code illustrant l'utilisation d'ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="appbar_button1" IconUri="/Images/appbar_button1.png" Text="Bouton 1"/>
+            <shell:ApplicationBarIconButton x:Name="appbar_button2" IconUri="/Images/appbar_button2.png" Text="Bouton 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="menuItem1" Text="ÉlémentMenu 1"/>
+                <shell:ApplicationBarMenuItem x:Name="menuItem2" Text="ÉlémentMenu 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+    
+</phone:PhoneApplicationPage>

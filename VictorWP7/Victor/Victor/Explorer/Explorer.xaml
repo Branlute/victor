@@ -1,0 +1,49 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="VictorNamespace.Explorer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape" Orientation="Landscape"
+    mc:Ignorable="d" d:DesignHeight="480" d:DesignWidth="728"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot est la grille racine où tout le contenu de la page est placé-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contient le nom de l'application et le titre de la page-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="EXPLORER MODE" Style="{StaticResource PhoneTextNormalStyle}" Foreground="#FF0A7C37" />
+            <TextBlock x:Name="PageTitle" Text="Choose or take a pic" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Foreground="#FF0A7C37" />
+        </StackPanel>
+
+        <!--ContentPanel - placez tout contenu supplémentaire ici-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Image Height="235" Margin="156,6,156,0" Name="imgResult" Stretch="Fill" VerticalAlignment="Top" Width="392" HorizontalAlignment="Center" />
+            <Button Content="Detect automatically" Height="72" HorizontalAlignment="Left" Margin="0,247,0,0" Name="btnAzure" VerticalAlignment="Top" Width="348" Background="#FF0A7C38" BorderBrush="Black" Visibility="Collapsed" Click="btnAzure_Click" />
+            <Button Content="Create a map" Height="72" HorizontalAlignment="Left" Margin="354,247,0,0" Name="btnCreate" VerticalAlignment="Top" Width="349" Background="#FF0A7C38" BorderBrush="Black" Visibility="Collapsed" Click="btnCreate_Click" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="12,6,0,0" Name="chargementLabel" Text="TextBlock" VerticalAlignment="Top" Foreground="Black" Visibility="Collapsed" />
+        </Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Victor;component/Images/Menu/background.png" />
+        </Grid.Background>
+    </Grid>
+ 
+    <!--Exemple de code illustrant l'utilisation de l'ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/AppBar/download.png" Text="Select" x:Name="appBarChoix" Click="appBarChoix_Click" />
+            <shell:ApplicationBarIconButton IconUri="/Images/AppBar/camera.png" Text="Camera" x:Name="appBarCamera" Click="appBarCamera_Click" />
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

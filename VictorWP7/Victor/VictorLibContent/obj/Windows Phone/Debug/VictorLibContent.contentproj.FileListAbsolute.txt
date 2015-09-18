@@ -1,0 +1,9 @@
+J:\ludovic\Etudes\3) EFREI\Semestre 7\Projet Méthodo\Victor\Victor\VictorLibContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Ludovic\Desktop\Victor\Victor\VictorLibContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\Visual Studio 2010\Projects\Victor\Victor\VictorLibContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Thomas\Dropbox\Project\Victor\Victor\VictorLibContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\pmndour\Documents\imagine Cup 2010\svn\Victor\Victor\VictorLibContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\MixArt\Documents\Branlute\Victor\Victor\VictorLibContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\pmndour\Documents\imagine Cup 2010\victor-imagineCup\Victor\Victor\VictorLibContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Ludovic\Documents\Victor\Victor\Victor\VictorLibContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLibContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache

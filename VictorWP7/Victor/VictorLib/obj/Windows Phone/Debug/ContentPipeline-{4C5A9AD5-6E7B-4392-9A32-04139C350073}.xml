@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>marche.png</Source>
+      <Name>marche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\marche.xnb</Output>
+      <Time>2012-05-01T21:12:03.3509146+02:00</Time>
+    </Item>
+    <Item>
+      <Source>victor.png</Source>
+      <Name>victor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\victor.xnb</Output>
+      <Time>2012-05-01T21:12:00.8727729+02:00</Time>
+    </Item>
+    <Item>
+      <Source>casserole.png</Source>
+      <Name>casserole</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\casserole.xnb</Output>
+      <Time>2012-05-01T21:12:03.4509203+02:00</Time>
+    </Item>
+    <Item>
+      <Source>toxique.png</Source>
+      <Name>toxique</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\toxique.xnb</Output>
+      <Time>2012-05-01T21:12:03.3419141+02:00</Time>
+    </Item>
+    <Item>
+      <Source>casserole1.png</Source>
+      <Name>casserole1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\casserole1.xnb</Output>
+      <Time>2012-05-01T23:40:15.5555196+02:00</Time>
+    </Item>
+    <Item>
+      <Source>casserole2.png</Source>
+      <Name>casserole2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\casserole2.xnb</Output>
+      <Time>2012-05-01T21:12:00.8207699+02:00</Time>
+    </Item>
+    <Item>
+      <Source>bouchon.png</Source>
+      <Name>bouchon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\bouchon.xnb</Output>
+      <Time>2012-05-01T21:12:00.8057691+02:00</Time>
+    </Item>
+    <Item>
+      <Source>bouchon1.png</Source>
+      <Name>bouchon1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\bouchon1.xnb</Output>
+      <Time>2012-05-01T21:12:03.4329193+02:00</Time>
+    </Item>
+    <Item>
+      <Source>jauge.png</Source>
+      <Name>jauge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\jauge.xnb</Output>
+      <Time>2012-05-01T21:12:07.9461775+02:00</Time>
+    </Item>
+    <Item>
+      <Source>grille-pain-derriere.png</Source>
+      <Name>grille-pain-derriere</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\grille-pain-derriere.xnb</Output>
+      <Time>2012-05-01T21:12:03.3719158+02:00</Time>
+    </Item>
+    <Item>
+      <Source>grille-pain-devant.png</Source>
+      <Name>grille-pain-devant</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\grille-pain-devant.xnb</Output>
+      <Time>2012-05-01T21:12:07.7741676+02:00</Time>
+    </Item>
+    <Item>
+      <Source>grillepainManette.png</Source>
+      <Name>grillepainManette</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\grillepainManette.xnb</Output>
+      <Time>2012-05-01T21:12:03.3779162+02:00</Time>
+    </Item>
+    <Item>
+      <Source>tartine.png</Source>
+      <Name>tartine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\tartine.xnb</Output>
+      <Time>2012-05-01T21:12:00.8677726+02:00</Time>
+    </Item>
+    <Item>
+      <Source>grillepain.png</Source>
+      <Name>grillepain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\grillepain.xnb</Output>
+      <Time>2012-05-01T21:12:07.8011692+02:00</Time>
+    </Item>
+    <Item>
+      <Source>bouteille.png</Source>
+      <Name>bouteille</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\bouteille.xnb</Output>
+      <Time>2012-05-01T21:12:07.7971689+02:00</Time>
+    </Item>
+    <Item>
+      <Source>labyrinthe.png</Source>
+      <Name>labyrinthe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\labyrinthe.xnb</Output>
+      <Time>2012-05-01T21:12:03.3549149+02:00</Time>
+    </Item>
+    <Item>
+      <Source>next.png</Source>
+      <Name>next</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\next.xnb</Output>
+      <Time>2012-05-01T21:12:03.4379196+02:00</Time>
+    </Item>
+    <Item>
+      <Source>fond1.png</Source>
+      <Name>fond1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\fond1.xnb</Output>
+      <Time>2012-05-01T21:12:03.3989174+02:00</Time>
+    </Item>
+    <Item>
+      <Source>fond2.png</Source>
+      <Name>fond2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\fond2.xnb</Output>
+      <Time>2012-05-01T21:12:03.4069178+02:00</Time>
+    </Item>
+    <Item>
+      <Source>fond3.png</Source>
+      <Name>fond3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\fond3.xnb</Output>
+      <Time>2012-05-01T21:12:03.4129182+02:00</Time>
+    </Item>
+    <Item>
+      <Source>fourChaud.png</Source>
+      <Name>fourChaud</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\fourChaud.xnb</Output>
+      <Time>2012-05-01T21:12:00.9247759+02:00</Time>
+    </Item>
+    <Item>
+      <Source>fourFroid.png</Source>
+      <Name>fourFroid</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\fourFroid.xnb</Output>
+      <Time>2012-05-01T21:12:03.3469144+02:00</Time>
+    </Item>
+    <Item>
+      <Source>four.png</Source>
+      <Name>four</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\four.xnb</Output>
+      <Time>2012-05-01T22:30:07.4838317+02:00</Time>
+    </Item>
+    <Item>
+      <Source>puzzle1.png</Source>
+      <Name>puzzle1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\puzzle1.xnb</Output>
+      <Time>2012-05-01T21:12:00.8877737+02:00</Time>
+    </Item>
+    <Item>
+      <Source>previous.png</Source>
+      <Name>previous</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\previous.xnb</Output>
+      <Time>2012-05-01T21:12:00.8967743+02:00</Time>
+    </Item>
+    <Item>
+      <Source>couteau.png</Source>
+      <Name>couteau</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\couteau.xnb</Output>
+      <Time>2012-05-01T21:12:03.3829165+02:00</Time>
+    </Item>
+    <Item>
+      <Source>bleu.png</Source>
+      <Name>bleu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\bleu.xnb</Output>
+      <Time>2012-05-01T21:12:07.8111697+02:00</Time>
+    </Item>
+    <Item>
+      <Source>verre.png</Source>
+      <Name>verre</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\verre.xnb</Output>
+      <Time>2012-05-01T21:12:07.780168+02:00</Time>
+    </Item>
+    <Item>
+      <Source>rouge.png</Source>
+      <Name>rouge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\rouge.xnb</Output>
+      <Time>2012-05-01T21:12:00.9307762+02:00</Time>
+    </Item>
+    <Item>
+      <Source>glacon.png</Source>
+      <Name>glacon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\glacon.xnb</Output>
+      <Time>2012-05-01T21:12:00.8467714+02:00</Time>
+    </Item>
+    <Item>
+      <Source>etui.png</Source>
+      <Name>etui</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\etui.xnb</Output>
+      <Time>2012-05-01T21:12:03.3939171+02:00</Time>
+    </Item>
+    <Item>
+      <Source>home_salon.png</Source>
+      <Name>home_salon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\home_salon.xnb</Output>
+      <Time>2012-05-01T21:12:00.9427769+02:00</Time>
+    </Item>
+    <Item>
+      <Source>canape.png</Source>
+      <Name>canape</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\canape.xnb</Output>
+      <Time>2012-05-01T21:12:07.8051694+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cheminee.png</Source>
+      <Name>cheminee</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\cheminee.xnb</Output>
+      <Time>2012-05-01T21:12:03.4289191+02:00</Time>
+    </Item>
+    <Item>
+      <Source>prises.png</Source>
+      <Name>prises</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\prises.xnb</Output>
+      <Time>2012-05-01T21:12:00.8627723+02:00</Time>
+    </Item>
+    <Item>
+      <Source>radiateur.png</Source>
+      <Name>radiateur</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\radiateur.xnb</Output>
+      <Time>2012-05-01T21:12:00.9197756+02:00</Time>
+    </Item>
+    <Item>
+      <Source>tablebougie.png</Source>
+      <Name>tablebougie</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\tablebougie.xnb</Output>
+      <Time>2012-05-01T21:12:00.9367765+02:00</Time>
+    </Item>
+    <Item>
+      <Source>ventilo.png</Source>
+      <Name>ventilo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\ventilo.xnb</Output>
+      <Time>2012-05-01T21:12:00.9147753+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Accessoires\head_home.png</Source>
+      <Name>Images\Accessoires\head_home</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\Images\Accessoires\head_home.xnb</Output>
+      <Time>2012-05-01T21:12:03.5419256+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Accessoires\head_plage.png</Source>
+      <Name>Images\Accessoires\head_plage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\Images\Accessoires\head_plage.xnb</Output>
+      <Time>2012-05-01T21:12:03.5469258+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Accessoires\pants_home.png</Source>
+      <Name>Images\Accessoires\pants_home</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\Images\Accessoires\pants_home.xnb</Output>
+      <Time>2012-05-01T21:12:03.5129239+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Accessoires\pants_plage.png</Source>
+      <Name>Images\Accessoires\pants_plage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\Images\Accessoires\pants_plage.xnb</Output>
+      <Time>2012-05-01T21:12:03.5189242+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Accessoires\shirt_home.png</Source>
+      <Name>Images\Accessoires\shirt_home</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\Images\Accessoires\shirt_home.xnb</Output>
+      <Time>2012-05-01T21:12:03.5239245+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Accessoires\shirt_plage.png</Source>
+      <Name>Images\Accessoires\shirt_plage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\Images\Accessoires\shirt_plage.xnb</Output>
+      <Time>2012-05-01T21:12:03.531925+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Accessoires\victor.png</Source>
+      <Name>Images\Accessoires\victor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\Images\Accessoires\victor.xnb</Output>
+      <Time>2012-05-01T21:12:03.5369253+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Mario\minecraft_mario.png</Source>
+      <Name>Images\Mario\minecraft_mario</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\Images\Mario\minecraft_mario.xnb</Output>
+      <Time>2012-05-01T21:12:07.4451488+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Mario\bloc.png</Source>
+      <Name>Images\Mario\bloc</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\Images\Mario\bloc.xnb</Output>
+      <Time>2012-05-01T22:49:51.3725463+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Mario\map.png</Source>
+      <Name>Images\Mario\map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\Images\Mario\map.xnb</Output>
+      <Time>2012-05-01T21:12:07.4321481+02:00</Time>
+    </Item>
+    <Item>
+      <Source>home_cuisine.png</Source>
+      <Name>home_cuisine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\home_cuisine.xnb</Output>
+      <Time>2012-05-01T21:12:03.4029176+02:00</Time>
+    </Item>
+    <Item>
+      <Source>lampe_cuisine.png</Source>
+      <Name>lampe_cuisine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\lampe_cuisine.xnb</Output>
+      <Time>2012-05-01T21:12:00.9007745+02:00</Time>
+    </Item>
+    <Item>
+      <Source>aiguille-g.png</Source>
+      <Name>aiguille-g</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\aiguille-g.xnb</Output>
+      <Time>2012-05-01T21:12:00.9107751+02:00</Time>
+    </Item>
+    <Item>
+      <Source>aiguille-p.png</Source>
+      <Name>aiguille-p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\aiguille-p.xnb</Output>
+      <Time>2012-05-01T21:12:03.3369138+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Mario\backgroundMario.png</Source>
+      <Name>Images\Mario\backgroundMario</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\Images\Mario\backgroundMario.xnb</Output>
+      <Time>2012-05-01T21:12:07.4531493+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Mario\bidon.png</Source>
+      <Name>Images\Mario\bidon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\Images\Mario\bidon.xnb</Output>
+      <Time>2012-05-01T21:12:07.4601497+02:00</Time>
+    </Item>
+    <Item>
+      <Source>toxique2.png</Source>
+      <Name>toxique2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\toxique2.xnb</Output>
+      <Time>2012-05-01T21:12:03.4549206+02:00</Time>
+    </Item>
+    <Item>
+      <Source>couteau2.png</Source>
+      <Name>couteau2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\couteau2.xnb</Output>
+      <Time>2012-05-01T21:12:03.3319135+02:00</Time>
+    </Item>
+    <Item>
+      <Source>four2.png</Source>
+      <Name>four2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\four2.xnb</Output>
+      <Time>2012-05-01T22:30:08.5678937+02:00</Time>
+    </Item>
+    <Item>
+      <Source>grillepain2.png</Source>
+      <Name>grillepain2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\grillepain2.xnb</Output>
+      <Time>2012-05-01T21:12:00.8777732+02:00</Time>
+    </Item>
+    <Item>
+      <Source>FlammesSprites.png</Source>
+      <Name>FlammesSprites</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\FlammesSprites.xnb</Output>
+      <Time>2012-05-01T21:12:00.8127695+02:00</Time>
+    </Item>
+    <Item>
+      <Source>tete_victor.png</Source>
+      <Name>tete_victor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\tete_victor.xnb</Output>
+      <Time>2012-05-01T21:12:03.322913+02:00</Time>
+    </Item>
+    <Item>
+      <Source>background.png</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\background.xnb</Output>
+      <Time>2012-05-01T21:12:03.4469201+02:00</Time>
+    </Item>
+    <Item>
+      <Source>verre2.png</Source>
+      <Name>verre2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\verre2.xnb</Output>
+      <Time>2012-05-01T21:12:03.3879167+02:00</Time>
+    </Item>
+    <Item>
+      <Source>bloc.png</Source>
+      <Name>bloc</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\bloc.xnb</Output>
+      <Time>2012-05-01T22:49:43.0490702+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2012-05-01T21:12:03.3279133+02:00</Time>
+    </Item>
+    <Item>
+      <Source>grillepainSon.wav</Source>
+      <Name>grillepainSon</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\grillepainSon.xnb</Output>
+      <Time>2012-05-01T21:12:00.9057748+02:00</Time>
+    </Item>
+    <Item>
+      <Source>fourSon.wav</Source>
+      <Name>fourSon</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\fourSon.xnb</Output>
+      <Time>2012-05-01T21:12:00.8517717+02:00</Time>
+    </Item>
+    <Item>
+      <Source>casseroleSon.wav</Source>
+      <Name>casseroleSon</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\casseroleSon.xnb</Output>
+      <Time>2012-05-01T21:12:00.8827735+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{4C5A9AD5-6E7B-4392-9A32-04139C350073}</ContentProjectGUID>
+      <TargetPlatform>WindowsPhone</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLibContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\obj\Windows Phone\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Thomas\Documents\victor-imagineCup\Victor\Victor\VictorLib\bin\Windows Phone\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-02-06T15:19:26.4843015+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{46FC44CB-9552-4E54-9FDE-23EE0AC9D69F}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VictorNamespace</RootNamespace>
+    <AssemblyName>Victor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>Victor.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>VictorNamespace.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="Microsoft.Xna.Framework.Game" />
+    <Reference Include="Microsoft.Xna.Framework.GamerServices" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics" />
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch" />
+    <Reference Include="microsoft.xna.framework.interop" />
+    <Reference Include="system.data.linq" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml" />
+    <Reference Include="mscorlib.extensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adventure\Home\Jeux\Cuisine\Bougie.xaml.cs">
+      <DependentUpon>Bougie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\Home\Jeux\Cuisine\BouteilleCours.cs" />
+    <Compile Include="Adventure\Home\Jeux\Cuisine\Map.cs" />
+    <Compile Include="Adventure\Home\Jeux\Cuisine\Obstacle.cs" />
+    <Compile Include="Adventure\Home\Jeux\Cuisine\Mario.xaml.cs">
+      <DependentUpon>Mario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\QCMResultsNotOK2.xaml.cs">
+      <DependentUpon>QCMResultsNotOK2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\QCMResultsOk2.xaml.cs">
+      <DependentUpon>QCMResultsOk2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\Home\Jeux\Cuisine\Bouteille.xaml.cs">
+      <DependentUpon>Bouteille.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\Home\Jeux\Cuisine\Four.xaml.cs">
+      <DependentUpon>Four.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\Home\Jeux\Cuisine\Couteau.xaml.cs">
+      <DependentUpon>Couteau.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\Home\Jeux\Cuisine\Grillepain.xaml.cs">
+      <DependentUpon>Grillepain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\QCMResultsNotOK.xaml.cs">
+      <DependentUpon>QCMResultsNotOK.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\Home\Jeux\Cuisine\Casserole.xaml.cs">
+      <DependentUpon>Casserole.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\QCMResultsOk.xaml.cs">
+      <DependentUpon>QCMResultsOk.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Background.cs" />
+    <Compile Include="BDD\Accessoire.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BDD\InteractionPhoto.cs" />
+    <Compile Include="BDD\Photo.cs" />
+    <Compile Include="BDD\DataBaseContext.cs" />
+    <Compile Include="BDD\Explication.cs" />
+    <Compile Include="BDD\Jeu.cs" />
+    <Compile Include="Explorer\ExplorerMap.xaml.cs">
+      <DependentUpon>ExplorerMap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Explorer\ExplorerManage.xaml.cs">
+      <DependentUpon>ExplorerManage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Explorer\ExplorerMenu.xaml.cs">
+      <DependentUpon>ExplorerMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Explorer\GameExplorer.xaml.cs">
+      <DependentUpon>GameExplorer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Disguise\Disguise.xaml.cs">
+      <DependentUpon>Disguise.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Explorer\Editor.xaml.cs">
+      <DependentUpon>Editor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Explorer\Explorer.xaml.cs">
+      <DependentUpon>Explorer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GameEx.xaml.cs">
+      <DependentUpon>GameEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BDD\Interaction.cs" />
+    <Compile Include="Image_Texture.cs" />
+    <Compile Include="Image_TexturePhoto.cs" />
+    <Compile Include="Parents\Parents.xaml.cs">
+      <DependentUpon>Parents.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\Home\Jeux\Cuisine\QCMDragAndDrop.xaml.cs">
+      <DependentUpon>QCMDragAndDrop.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\Home\Jeux\Cuisine\QCMDragAndDropItem.xaml.cs">
+      <DependentUpon>QCMDragAndDropItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Adventure\Home\Jeux\Cuisine\ReorderListBox.cs" />
+    <Compile Include="Adventure\Home\Jeux\Cuisine\ReorderListBoxItem.cs" />
+    <Compile Include="Parents\ParentsCornerItem.cs" />
+    <Compile Include="Adventure\QueryQCM.xaml.cs">
+      <DependentUpon>QueryQCM.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Recreation\Recreation.xaml.cs">
+      <DependentUpon>Recreation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Session.cs" />
+    <Compile Include="Adventure\Home\HomeXNA.xaml.cs">
+      <DependentUpon>HomeXNA.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Init.cs" />
+    <Compile Include="BDD\Log.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BDD\Modele.cs" />
+    <Compile Include="BDD\Niveau.cs" />
+    <Compile Include="Parameters\Parameters.xaml.cs">
+      <DependentUpon>Parameters.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PopupSplash.xaml.cs">
+      <DependentUpon>PopupSplash.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AppServiceProvider.cs" />
+    <Compile Include="BDD\Question.cs" />
+    <Compile Include="BDD\Reponse.cs" />
+    <Compile Include="BDD\Scene.cs" />
+    <Compile Include="Victor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="Adventure\Home\Jeux\Cuisine\Bougie.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Adventure\Home\Jeux\Cuisine\Mario.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Adventure\QCMResultsNotOK2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Adventure\QCMResultsOk2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Adventure\Home\Jeux\Cuisine\Bouteille.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Adventure\Home\Jeux\Cuisine\Four.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Adventure\Home\Jeux\Cuisine\Couteau.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Adventure\Home\Jeux\Cuisine\Grillepain.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Adventure\QCMResultsNotOK.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Adventure\Home\Jeux\Cuisine\Casserole.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Adventure\QCMResultsOk.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Explorer\ExplorerMap.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Explorer\ExplorerManage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Explorer\ExplorerMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Explorer\GameExplorer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Disguise\Disguise.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Explorer\Editor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Explorer\Explorer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GameEx.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Parents\Parents.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Adventure\Home\Jeux\Cuisine\QCMDragAndDrop.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Adventure\Home\Jeux\Cuisine\QCMDragAndDropItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Adventure\QueryQCM.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Recreation\Recreation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Adventure\Home\HomeXNA.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Parameters\Parameters.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PopupSplash.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Images\Accessoires\victor.png" />
+    <Resource Include="Images\Accessoires\head_plage.png" />
+    <Resource Include="Images\Accessoires\shirt_plage.png" />
+    <Resource Include="Images\Accessoires\pants_plage.png" />
+    <Resource Include="Images\Accessoires\pants_home.png" />
+    <Resource Include="Images\Accessoires\shirt_home.png" />
+    <Resource Include="Images\Accessoires\head_home.png" />
+    <Resource Include="Images\Accessoires\head_no.png" />
+    <Resource Include="Images\Accessoires\pants_no.png" />
+    <Resource Include="Images\Accessoires\shirt_no.png" />
+    <Content Include="Images\AppBar\add.png" />
+    <Content Include="Images\AppBar\submit.png" />
+    <Content Include="Images\AppBar\camera.png" />
+    <Content Include="Images\AppBar\download.png" />
+    <Content Include="Images\AppBar\save.png" />
+    <Content Include="Images\AppBar\share.png" />
+    <Content Include="Images\AppBar\param.png" />
+    <Resource Include="Images\Menu\victor_maison.png" />
+    <Resource Include="Images\Menu\victor_vacances.png" />
+    <Resource Include="Images\Icons\download.png" />
+    <Resource Include="Images\Icons\parents.png" />
+    <Resource Include="Images\Icons\save.png" />
+    <Resource Include="Images\Icons\reset.png" />
+    <Resource Include="Images\Icons\next.png" />
+    <Resource Include="Images\Icons\previous.png" />
+    <Resource Include="Images\Menu\victor_disguise.png" />
+    <Resource Include="Images\Menu\victor_explorer.png" />
+    <Resource Include="Images\Jeu\Home\Cuisine\victorBidon.png" />
+    <Resource Include="Images\Jeu\Home\Cuisine\victorCasserole.png" />
+    <Resource Include="Images\Jeu\Home\Cuisine\victorFour.png" />
+    <Resource Include="Images\Jeu\Home\Cuisine\victorGrillepain.png" />
+    <Resource Include="Images\Jeu\Home\Cuisine\victorVerre.png" />
+    <Resource Include="Images\Jeu\Home\Cuisine\victorCouteau.png" />
+    <Resource Include="Images\Jeu\Home\Menu\bathroom.png" />
+    <Resource Include="Images\Jeu\Home\Menu\garage.png" />
+    <Resource Include="Images\Jeu\Home\Menu\jardin.png" />
+    <Resource Include="Images\Jeu\Home\Menu\livingroom.png" />
+    <Resource Include="Images\Jeu\Home\Menu\room.png" />
+    <Resource Include="Images\Jeu\Home\Menu\cuisine.png" />
+    <Resource Include="Images\Jeu\Home\Menu\maison.png" />
+    <Resource Include="Images\Menu\victor_cubes.png" />
+    <Resource Include="Images\Jeu\victorLarme.png" />
+    <Resource Include="Images\Jeu\victorPortrait.png" />
+    <Resource Include="Images\Menu\background.png" />
+    <Resource Include="Images\Jeu\tete_victor.png" />
+    <Resource Include="Images\Jeu\tete_victor_pleure.png" />
+    <Resource Include="Images\Icons\refresh-testouille.png" />
+    <Resource Include="Images\Icons\look.png" />
+    <Resource Include="Images\Icons\plus.png" />
+    <Resource Include="Images\Icons\moins.png" />
+    <Resource Include="Images\Recreation\casserole.png" />
+    <Resource Include="Images\Recreation\couteau.png" />
+    <Resource Include="Images\Recreation\four.png" />
+    <Resource Include="Images\Recreation\grille.png" />
+    <Resource Include="Images\Recreation\toxique.png" />
+    <Content Include="MP3\Home\Cuisine\bottleExplication.mp3" />
+    <Content Include="MP3\Home\Cuisine\bottleQuestion.mp3" />
+    <Content Include="MP3\Home\Cuisine\casseroleExplication.mp3" />
+    <Content Include="MP3\Home\Cuisine\casseroleQuestion.mp3" />
+    <Content Include="MP3\Home\Cuisine\couteauExplication.mp3" />
+    <Content Include="MP3\Home\Cuisine\couteauQuestion.mp3" />
+    <Content Include="MP3\Home\Cuisine\fourExplication.mp3" />
+    <Content Include="MP3\Home\Cuisine\fourQuestion.mp3" />
+    <Content Include="MP3\Home\Cuisine\tasseExplication.mp3" />
+    <Content Include="MP3\Home\Cuisine\tasseQuestion.mp3" />
+    <Content Include="MP3\Home\Cuisine\toasterExplication.mp3" />
+    <Content Include="MP3\Home\Cuisine\toasterQuestion.mp3" />
+    <Content Include="MP3\Home\Menu\HomeMenu.mp3" />
+    <Content Include="SplashScreenImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VictorLib\VictorLib.csproj">
+      <Name>VictorLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

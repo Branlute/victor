@@ -1,0 +1,68 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="VictorNamespace.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="728" d:DesignHeight="480"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape"  Orientation="Landscape"
+    shell:SystemTray.IsVisible="False" HorizontalAlignment="Center">
+
+    <!--LayoutRoot est la grille racine où tout le contenu de la page est placé-->
+    <Grid x:Name="LayoutRoot">
+        <!--Contrôle Pivot-->
+        <controls:Pivot Title="VICTOR" Foreground="#FF0A7C37" Width="730">
+            <!--Élément un de tableau croisé dynamique-->
+            <controls:PivotItem Header="at home">
+                <Grid>
+                    <Image Height="313" HorizontalAlignment="Center" Margin="46,2,0,0" Name="imgVictorHome" Stretch="Fill" VerticalAlignment="Top" Width="378" Source="/Victor;component/Images/Menu/victor_maison.png" Tap="imgVictorHome_Tap" />
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Élément deux de tableau croisé dynamique-->
+            <controls:PivotItem Header="on holiday">
+                <Grid>
+                    <Image Height="313" HorizontalAlignment="Center" Margin="108,3,96,0" Name="imgVictorPlage" Stretch="Fill" VerticalAlignment="Top" Width="344" Source="/Victor;component/Images/Menu/victor_vacances.png" />
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Élément deux de tableau croisé dynamique-->
+            <controls:PivotItem Header="explorer mode">
+                <Grid>
+                    <Image Height="313" Margin="144,3,144,0" Name="imgVictorExplorer" Stretch="Fill" VerticalAlignment="Top" Width="344" Source="/Victor;component/Images/Menu/victor_explorer.png" Tap="imgVictorExplorer_Tap" HorizontalAlignment="Center" />
+                </Grid>
+            </controls:PivotItem>
+            <!--Élément trois de tableau croisé dynamique-->
+            <controls:PivotItem Header="disguise mode">
+                <Grid>
+                    <Image Height="313" Margin="1,4,0,0" Name="imgVictorDisguise" Stretch="Fill" VerticalAlignment="Top" Width="344" Source="/Victor;component/Images/Menu/victor_disguise.png" Tap="imgVictorDisguise_Tap" HorizontalAlignment="Center" />
+                </Grid>
+            </controls:PivotItem>
+            <controls:PivotItem Header="playground">
+                <Grid>
+                    <Image Height="313" HorizontalAlignment="Center" Margin="0,2,0,0" Name="imgVictorRecreation" Stretch="Fill" VerticalAlignment="Top" Width="344" Source="/Victor;component/Images/Menu/victor_cubes.png" Tap="imgVictorRecreation_Tap" />
+                </Grid>
+            </controls:PivotItem>
+        </controls:Pivot>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Victor;component/Images/Menu/background.png" />
+        </Grid.Background>
+    </Grid>
+
+    <!--Exemple de code illustrant l'utilisation d'ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="parents' corner" Click="ApplicationBarMenuItem_Click_1" />
+                <shell:ApplicationBarMenuItem Text="Parameters" Click="ApplicationBarMenuItem_Click" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+    
+</phone:PhoneApplicationPage>
