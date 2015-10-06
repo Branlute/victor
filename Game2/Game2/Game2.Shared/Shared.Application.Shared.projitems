@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -19,11 +19,25 @@
     <Compile Include="$(MSBuildThisFileDirectory)GamePage.xaml.cs">
       <DependentUpon>GamePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\AnimatedImage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\ImageTexture.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HomeWorldGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Session.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="$(MSBuildThisFileDirectory)GamePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)BDD\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Images\aiguille-g.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Images\aiguille-p.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Images\FlammesSprites.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Images\home_cuisine.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Images\lampe_cuisine.png" />
   </ItemGroup>
 </Project>

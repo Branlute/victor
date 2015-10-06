@@ -22,7 +22,7 @@ namespace Game2
     /// </summary>
     public sealed partial class GamePage : SwapChainBackgroundPanel
     {
-        readonly Game1 _game;
+        readonly HomeWorldGame _game;
 
         public GamePage(string launchArguments)
         {
@@ -30,7 +30,7 @@ namespace Game2
 
             // Create the game.
 
-            _game = XamlGame<Game1>.Create(launchArguments, Window.Current.CoreWindow, this);
+            _game = XamlGame<HomeWorldGame>.Create(launchArguments, Window.Current.CoreWindow, this);
         }
     }
 }
