@@ -152,7 +152,9 @@ namespace VictorNamespace
                 sonPremiere = false;
             }
             else
-			mp3.IsMuted = true;
+            {
+                mp3.IsMuted = true;
+            }
             // Créer un nouveau SpriteBatch, qui peut être utilisé pour dessiner des textures.
             spriteBatch = new SpriteBatch(SharedGraphicsDeviceManager.Current.GraphicsDevice);
 
